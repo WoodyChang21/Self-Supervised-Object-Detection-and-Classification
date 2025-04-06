@@ -11,6 +11,8 @@ The approach leverages DINOv2's ability to detect object regions **without groun
 
 ---
 
+
+
 ## 🔍 Motivation
 
 Manual annotation of insect bounding boxes is time-consuming and expensive. This project explores **label-free detection** using DINOv2 attention maps, which highlight object regions automatically. Once the objects are cropped, they are passed to a powerful classifier to recognize the insect species.
@@ -29,6 +31,18 @@ Manual annotation of insect bounding boxes is time-consuming and expensive. This
    Each cropped insect region is passed into a fine-tuned EfficientNet model for classification.
 
 ---
+
+## 🖼️ Sample Output
+
+Here is a visual output of the full pipeline:
+
+<p align="center">   
+
+  ![image](https://github.com/user-attachments/assets/9071dfff-4b85-467d-8b4b-a7c4c0ecee11)<br>
+</p>
+
+---
+
 
 ## 🎯 Results
 
